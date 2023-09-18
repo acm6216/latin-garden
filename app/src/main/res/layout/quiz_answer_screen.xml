@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="completion"
+            type="me.qingshu.latin.data.Completion" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingBottom="8dp"
+            android:paddingHorizontal="?dialogPreferredPadding"
+            android:paddingTop="?dialogPreferredPadding"
+            android:text="@{completion.detail}"
+            android:textAppearance="@style/ToolbarTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?dividerHorizontal"
+            app:layout_constraintTop_toBottomOf="@id/detail" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginHorizontal="?dialogPreferredPadding"
+            android:id="@+id/input_root"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginVertical="8dp"
+            android:hint="@string/quiz_answer_hint"
+            app:layout_constraintBottom_toTopOf="@id/commit"
+            app:layout_constraintTop_toBottomOf="@id/divider">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start|top"
+                android:text="@{completion.useAnswer}" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="?dialogPreferredPadding"
+            android:layout_marginBottom="8dp"
+            android:text="@string/quiz_answer_commit_completion"
+            app:icon="@drawable/ic_check"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/input_root" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

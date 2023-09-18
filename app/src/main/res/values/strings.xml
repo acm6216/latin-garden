@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">拉丁园</string>
+    <string name="action_settings">设置</string>
+    <string name="action_privacy_policy" translatable="false">@string/privacy_policy</string>
+    <string name="action_close">关闭</string>
+    <string name="action_commit">提交</string>
+    <string name="action_open_source">开源信息</string>
+    <string name="action_update_log">更新日志</string>
+
+    <string name="course_fragment_label">学习场</string>
+    <string name="search_fragment_label">查询</string>
+    <string name="setting_fragment_label">设置</string>
+
+    <string name="search_suggestion_hint">中文名、拉丁名、科、属或者注释</string>
+    <string name="header_label_with_count" translatable="false">%1$s (%2$d)</string>
+
+    <string name="category_tree">园林树木</string>
+    <string name="category_flower">园林花卉</string>
+
+    <string name="nav_learn">学习场</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_search">词典</string>
+
+    <string name="learn">学习</string>
+    <string name="learn_tree_title">树木</string>
+    <string name="learn_flower_title">花卉</string>
+
+    <string name="learn_test_title">试题</string>
+    <string name="learn_test_radio">单选题</string>
+    <string name="learn_test_completion">填空题</string>
+    <string name="learn_test_radio_hint">从题库中选择已学习的题目。</string>
+    <string name="learn_test_completion_hint">从已学习的单词中随机出题。</string>
+    <string name="learn_history_title">测验记录</string>
+    <string name="learn_history_zero">还没有做过任何试题。</string>
+    <string name="learn_history_count">已做 %s 题，正确率 %s 。</string>
+    <string name="learn_wrong_question_book">错题本</string>
+    <string name="learn_review">待复习</string>
+    <string name="learn_completed">已学习</string>
+
+    <string name="message_wrong_question_book_empty">错题本为空</string>
+    <string name="message_review_empty">没有需要复习的单词</string>
+    <string name="message_group_empty">群组内没有单词</string>
+    <string name="message_completed_empty">没有已学习的词汇</string>
+    <string name="message_export_completed">单词表已导出</string>
+    <string name="message_export_completion_completed">题库已导出</string>
+
+    <string name="message_learn_finished">没有了</string>
+    <string name="message_learn_back_to_home">返回</string>
+    <string name="message_learn_try_again">再学一遍</string>
+
+    <!-- Preference Titles -->
+    <string name="setting_voice">发音</string>
+    <string name="setting_playback_speed">语速</string>
+    <string name="setting_playback_speed_key" translatable="false">playback_speed_key</string>
+    <string name="setting_playback_speed_default" translatable="false">1</string>
+
+    <string name="setting_playback_auto">自动发音</string>
+    <string name="setting_playback_auto_summary">仅卡片模式有效</string>
+    <string name="setting_playback_auto_key" translatable="false">setting_playback_auto_key</string>
+
+    <string name="setting_learning">学习</string>
+    <string name="setting_learning_review_interval_day">复习间隔天数</string>
+    <string name="setting_learning_review_interval_day_key" translatable="false">setting_learning_interval_day_key</string>
+    
+    <string name="setting_sort_by">卡片排序方式</string>
+    <string name="setting_sort_by_default" translatable="false">0</string>
+    <string name="setting_sort_by_key" translatable="false">setting_sort_by_key</string>
+
+    <string name="setting_repeat_mode">播放模式</string>
+    <string name="setting_repeat_mode_default" translatable="false">0</string>
+    <string name="setting_repeat_mode_key" translatable="false">setting_repeat_mode_key</string>
+
+    <string name="setting_data">数据</string>
+    <string name="setting_data_export_word_table">导出单词表</string>
+    <string name="setting_data_export_word_table_summary">文档名：园林植物拉丁名*_*.CSV</string>
+    <string name="setting_data_export_word_table_key" translatable="false">setting_data_export_word_table_key</string>
+    <string name="csv_mimetype" translatable="false">application/csv</string>
+    <string name="setting_export_file_name_tree">园林树木拉丁名150_%s.csv</string>
+    <string name="setting_export_file_name_flower">园林花卉拉丁名198_%s.csv</string>
+    <string name="setting_export_file_name_completion">园林植物填空348题_%s.csv</string>
+
+    <string name="setting_data_export_quiz_completion">导出随机填空题</string>
+    <string name="setting_data_export_quiz_completion_summary">文档名：园林植物填空348题_*.CSV</string>
+    <string name="setting_data_export_quiz_completion_key">setting_data_export_quiz_completion_key</string>
+    <string name="setting_learning_quiz_count">测试题数量</string>
+    <string name="setting_learning_quiz_count_key">setting_learning_quiz_count_key</string>
+
+    <string name="setting_sync_data">导出</string>
+
+    <!-- about -->
+    <string name="develop_title">参与开发</string>
+    <string name="about_developer">开发</string>
+    <string name="about_developer_code_with_test">代码编写 &amp; 测试</string>
+    <string name="about_developer_code_with_test_summary">岑小缘（青树） </string>
+    <string name="about_developer_ui">User Interface</string>
+    <string name="about_developer_ui_summary">岑小缘（青树） </string>
+    <string name="about_developer_email">邮箱</string>
+    <string name="about_developer_email_summary" translatable="false">cenxiaoyuan@qq.com</string>
+    <string name="about_resource">资源</string>
+    <string name="about_resource_word">词源提供</string>
+    <string name="about_resource_word_summary">于晓南</string>
+    <string name="about_resource_sound">音频录制</string>
+    <string name="about_resource_sound_summary">于晓南</string>
+    <string name="about_resource_email">邮箱</string>
+    <string name="about_resource_email_summary" translatable="false">yuxiaonan626@126.com</string>
+
+    <string name="number_title">%d、%s</string>
+    <string name="quiz_answer">参考答案：%s</string>
+    <string name="quiz_answer_form_use">你的答案：%s</string>
+    <string name="quiz_answer_a">A、%s</string>
+    <string name="quiz_answer_b">B、%s</string>
+    <string name="quiz_answer_c">C、%s</string>
+    <string name="quiz_answer_d">D、%s</string>
+    <string name="quiz_answer_commit">交卷</string>
+    <string name="quiz_answer_renew">重做</string>
+    <string name="quiz_answer_empty">你还没有学习过</string>
+    <string name="quiz_answer_hint">在此输入你的答案</string>
+    <string name="quiz_answer_commit_completion">提交答案</string>
+
+    <string name="privacy_policy">隐私政策</string>
+    <string name="privacy_policy_close">我已知晓</string>
+    <string name="privacy_policy_finish">退出</string>
+    <string name="privacy_policy_status_key" translatable="false">privacy_policy_status_key</string>
+    <string name="privacy_policy_not_reminder">不再提醒</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+
+        <inset
+            android:insetBottom="10dp"
+            android:insetLeft="@dimen/navigation_rail_item_bg_inset_left"
+            android:insetRight="@dimen/navigation_rail_item_bg_inset_right"
+            android:insetTop="10dp">
+
+            <shape>
+                <solid android:color="@android:color/transparent" />
+                <corners
+                    android:bottomLeftRadius="@dimen/navigation_rail_item_bg_corner_radius_left"
+                    android:bottomRightRadius="@dimen/navigation_rail_item_bg_corner_radius_right"
+                    android:topLeftRadius="@dimen/navigation_rail_item_bg_corner_radius_left"
+                    android:topRightRadius="@dimen/navigation_rail_item_bg_corner_radius_right" />
+            </shape>
+        </inset>
+    </item>
+    <item android:state_selected="false">
+        <color android:color="@android:color/transparent" />
+    </item>
+</selector>

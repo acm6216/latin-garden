@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        app:paddingBottomSystemWindowInsets="@{true}"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            app:paddingTopSystemWindowInsets="@{true}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                app:title="@string/privacy_policy"
+                app:titleTextAppearance="@style/ToolbarTitle"
+                app:subtitleTextAppearance="@style/ToolbarSubtitle"
+                android:id="@+id/toolbar"
+                app:navigationIcon="@drawable/ic_back"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_marginBottom="?actionBarSize"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textIsSelectable="true"
+                android:id="@+id/text"
+                android:padding="@dimen/spacing_medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <View
+            android:background="?dividerHorizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="?actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <CheckBox
+                android:layout_marginHorizontal="8dp"
+                android:text="@string/privacy_policy_not_reminder"
+                android:id="@+id/not_reminder"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/close"
+                android:layout_marginHorizontal="8dp"
+                android:text="@string/privacy_policy_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/finish"
+                android:backgroundTint="?colorError"
+                android:layout_marginEnd="8dp"
+                android:text="@string/privacy_policy_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

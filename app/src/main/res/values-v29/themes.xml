@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme" parent="Base.Theme">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?isLightTheme</item>
+    </style>
+</resources>

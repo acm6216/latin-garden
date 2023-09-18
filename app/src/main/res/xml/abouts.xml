@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/about_developer">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:summary="@string/about_developer_ui_summary"
+            app:title="@string/about_developer_ui"/>
+        <Preference
+            app:iconSpaceReserved="false"
+            app:summary="@string/about_developer_code_with_test_summary"
+            app:title="@string/about_developer_code_with_test"/>
+        <Preference
+            app:iconSpaceReserved="false"
+            app:summary="@string/about_developer_email_summary"
+            app:title="@string/about_developer_email"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/about_resource">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:summary="@string/about_resource_word_summary"
+            app:title="@string/about_resource_word"/>
+        <Preference
+            app:summary="@string/about_resource_sound_summary"
+            app:iconSpaceReserved="false"
+            app:title="@string/about_resource_sound"/>
+        <Preference
+            app:iconSpaceReserved="false"
+            app:summary="@string/about_resource_email_summary"
+            app:title="@string/about_resource_email"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.V23.Theme" parent="Base.Theme">
+        <item name="colorPrimaryDark">@color/md_theme_light_outline</item>
+        <item name="android:windowLightStatusBar">?isLightTheme</item>
+    </style>
+    <style name="Theme" parent="Platform.V23.Theme" />
+</resources>

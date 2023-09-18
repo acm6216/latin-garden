@@ -1,0 +1,51 @@
+<resources>
+    <!-- Preference -->
+    <string-array name="setting_playback_speed_values" translatable="false">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>@string/setting_playback_speed_default</item>
+        <item>1.25</item>
+        <item>1.5</item>
+        <item>1.75</item>
+        <item>2</item>
+        <item>2.25</item>
+        <item>2.5</item>
+        <item>2.75</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="setting_playback_speed_entries" translatable="false">
+        <item>0.5倍</item>
+        <item>0.75倍</item>
+        <item>1倍</item>
+        <item>1.25倍</item>
+        <item>1.5倍</item>
+        <item>1.75倍</item>
+        <item>2倍</item>
+        <item>2.25倍</item>
+        <item>2.5倍</item>
+        <item>2.75倍</item>
+        <item>3倍</item>
+    </string-array>
+
+    <string-array name="setting_sort_by_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="setting_sort_by_entries">
+        <item>中文名</item>
+        <item>拉丁名</item>
+        <item>科名</item>
+        <item>属名</item>
+    </string-array>
+
+    <string-array name="setting_repeat_mode_value" translatable="false">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_repeat_mode_entries">
+        <item>顺序播放</item>
+        <item>群组循环</item>
+    </string-array>
+</resources>

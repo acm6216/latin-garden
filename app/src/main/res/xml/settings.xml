@@ -1,0 +1,78 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/setting_voice">
+
+        <rikka.preference.SimpleMenuPreference
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/setting_playback_speed_default"
+            app:title="@string/setting_playback_speed"
+            app:icon="@drawable/ic_speed"
+            app:entryValues="@array/setting_playback_speed_values"
+            app:entries="@array/setting_playback_speed_entries"
+            app:key="@string/setting_playback_speed_key"/>
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_play"
+            app:summary="@string/setting_playback_auto_summary"
+            app:title="@string/setting_playback_auto"
+            app:key="@string/setting_playback_auto_key"/>
+
+        <rikka.preference.SimpleMenuPreference
+            app:icon="@drawable/ic_repeat"
+            app:key="@string/setting_repeat_mode_key"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/setting_repeat_mode_default"
+            app:entryValues="@array/setting_repeat_mode_value"
+            app:entries="@array/setting_repeat_mode_entries"
+            app:title="@string/setting_repeat_mode"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/setting_learning">
+        <SeekBarPreference
+            app:icon="@drawable/ic_commit"
+            app:min="@integer/setting_learning_review_interval_day_min"
+            android:max="@integer/setting_learning_review_interval_day_max"
+            app:defaultValue="@integer/setting_learning_review_interval_day_default"
+            app:title="@string/setting_learning_review_interval_day"
+            app:key="@string/setting_learning_review_interval_day_key"
+            app:showSeekBarValue="true"/>
+
+        <rikka.preference.SimpleMenuPreference
+            app:useSimpleSummaryProvider="true"
+            android:icon="@drawable/ic_sort"
+            app:defaultValue="@string/setting_sort_by_default"
+            app:title="@string/setting_sort_by"
+            app:entryValues="@array/setting_sort_by_values"
+            app:entries="@array/setting_sort_by_entries"
+            app:key="@string/setting_sort_by_key"/>
+
+        <SeekBarPreference
+            android:icon="@drawable/ic_commit"
+            app:showSeekBarValue="true"
+            android:defaultValue="@integer/setting_learning_quiz_count_default"
+            app:min="@integer/setting_learning_quiz_count_default"
+            android:max="@integer/setting_learning_quiz_count_max"
+            android:title="@string/setting_learning_quiz_count"
+            app:key="@string/setting_learning_quiz_count_key"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/setting_data">
+        <Preference
+            app:summary="@string/setting_data_export_word_table_summary"
+            app:key="@string/setting_data_export_word_table_key"
+            app:icon="@drawable/ic_export_file"
+            app:title="@string/setting_data_export_word_table"/>
+        <Preference
+            android:icon="@drawable/ic_export_file"
+            app:summary="@string/setting_data_export_quiz_completion_summary"
+            android:title="@string/setting_data_export_quiz_completion"
+            app:key="@string/setting_data_export_quiz_completion_key"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

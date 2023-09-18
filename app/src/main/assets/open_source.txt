@@ -1,0 +1,14 @@
+<html>
+<head>
+    <meta charset="uft-8">
+</head>
+
+<h5>版本项目开源地址：</h5>
+<p><a href="https://github.com/acm6216/**">https://github.com/acm6216/**</a></p>
+
+<h5>使用到的开源库</h5>
+<h5>1、卡片层叠</h5>
+<p><a href="https://gitee.com/aruba/CardMoveApplication.git">https://gitee.com/aruba/CardMoveApplication.git</a></p>
+<h5>2、3D翻转</h5>
+<p><a href="https://gitee.com/itfitness/rotate3d-layout">https://gitee.com/itfitness/rotate3d-layout</a></p>
+<html>

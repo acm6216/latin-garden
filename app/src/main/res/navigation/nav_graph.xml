@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_course">
+
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="me.qingshu.latin.CourseScreen"
+        android:label="@string/course_fragment_label"
+        tools:layout="@layout/course_screen">
+
+        <action
+            app:destination="@id/nav_quiz"
+            android:id="@+id/action_to_quiz"/>
+        <action
+            android:id="@+id/action_to_learn"
+            app:destination="@id/nav_learn"/>
+
+        <action
+            android:id="@+id/action_to_privacy_policy"
+            app:destination="@id/nav_privacy_policy"/>
+
+        <action
+            android:id="@+id/action_to_open_text"
+            app:destination="@id/nav_open_text" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="me.qingshu.latin.SearchScreen"
+        android:label="@string/search_fragment_label"
+        tools:layout="@layout/search_screen">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/nav_course" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_setting"
+        android:label="@string/setting_fragment_label"
+        android:name="me.qingshu.latin.preference.SettingsScreen"/>
+    <fragment
+        android:id="@+id/nav_learn"
+        android:name="me.qingshu.latin.LearnScreen"
+        tools:layout="@layout/learn_screen"/>
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="me.qingshu.latin.QuizScreen"
+        tools:layout="@layout/quiz_screen">
+        <action
+            android:id="@+id/to_answer"
+            app:destination="@id/nav_quiz_answer"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_privacy_policy"
+        tools:layout="@layout/about_screen"
+        android:name="me.qingshu.latin.PrivacyPolicyScreen"/>
+    <fragment
+        android:id="@+id/nav_open_text"
+        tools:layout="@layout/open_text"
+        android:name="me.qingshu.latin.OpenText">
+
+        <argument
+            android:name="resName"
+            app:nullable="false"
+            android:defaultValue=""
+            app:argType="string"/>
+        <argument
+            app:nullable="false"
+            android:defaultValue="0"
+            app:argType="integer"
+            android:name="resTitle"/>
+    </fragment>
+
+    <dialog
+        android:id="@+id/nav_quiz_answer"
+        android:name="me.qingshu.latin.QuizAnswer"
+        tools:layout="@layout/quiz_answer_screen">
+
+    </dialog>
+</navigation>

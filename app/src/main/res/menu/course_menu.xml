@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_info"
+        android:id="@+id/action_privacy_policy"
+        android:title="@string/action_privacy_policy"/>
+
+    <item
+        app:showAsAction="never"
+        android:icon="@drawable/ic_code"
+        android:title="@string/action_open_source"
+        android:id="@+id/action_open_source"/>
+    <item
+        app:showAsAction="never"
+        android:icon="@drawable/ic_code"
+        android:title="@string/action_update_log"
+        android:id="@+id/action_update_log"/>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_close"
+        android:id="@+id/action_close"
+        android:title="@string/action_close"/>
+
+</menu>

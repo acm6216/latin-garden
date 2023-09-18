@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewmodel"
+            type="me.qingshu.latin.model.MainViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="?actionBarSize"
+            app:paddingBottomSystemWindowInsets="@{true}" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            app:paddingTopSystemWindowInsets="@{true}"
+            android:id="@+id/appbar"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                app:title="@{viewmodel.courseCard.title}"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:navigationIcon="@drawable/ic_back" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/finished_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/message_learn_finished"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:visibility="gone"
+                app:isGone="@{viewmodel.learnStatus}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/finished"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/message_learn_back_to_home"
+                android:visibility="gone"
+                app:isGone="@{viewmodel.learnStatus}"
+                app:layout_constraintEnd_toStartOf="@id/finished_title"
+                app:layout_constraintTop_toBottomOf="@id/finished_title" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/try_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/message_learn_try_again"
+                android:visibility="gone"
+                app:isGone="@{viewmodel.learnStatus}"
+                app:layout_constraintStart_toEndOf="@id/finished_title"
+                app:layout_constraintTop_toBottomOf="@id/finished_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

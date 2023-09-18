@@ -1,0 +1,151 @@
+id,problem,A,B,C,D,answer
+1,苏铁的拉丁学名是,Cycas rumphii,Cycas revoluta,Pinus massoniana,Pinus bungeana,B 
+2,银杏的拉丁学名是,Ginkgo biloba,Larix principis-rupprechtii,Abies holophylla,Picea meyeri,A
+3,辽东冷杉的拉丁学名是,Larix principis-rupprechtii,Picea wilsonii,Picea wilsonii,Abies holophylla,D
+4,白杄的拉丁学名是,Pseudolarix amabilis,Picea meyeri,Larix principis-rupprechtii,Picea wilsonii,B 
+5,青杄的拉丁学名是,Pinus massoniana,Cedrus deodara,Picea meyeri,Picea wilsonii,D
+6,华北落叶松的拉丁学名是,Pinus tabuliformis,Cedrus deodara,Larix principis-rupprechtii,Pseudolarix amabilis,C
+7,金钱松的拉丁学名是,Pinus armandii,Pinus tabuliformis,Pseudolarix amabilis,Pseudolarix amabilis,D
+8,雪松的拉丁学名是,Cunninghamia lanceolata,Pseudolarix amabilis,Pinus tabuliformis,Cedrus deodara,D
+9,马尾松的拉丁学名是,Pinus bungeana,Pinus armandii,Pinus massoniana,Pinus tabuliformis,C
+10,油松的拉丁学名是,Pinus bungeana,Pinus armandii,Pinus massoniana,Pinus tabuliformis,D
+11,白皮松的拉丁学名是,Pinus bungeana,Pinus armandii,Pinus massoniana,Pinus tabuliformis,A
+12,华山松的拉丁学名是,Pinus bungeana,Pinus armandii,Pinus massoniana,Pinus tabuliformis,B 
+13,杉木的拉丁学名是,Cryptomeria fortunei,Cunninghamia lanceolata,Cedrus deodara,Chamaecyparis obtusa,B 
+14,柳杉的拉丁学名是,Cryptomeria fortunei,Cunninghamia lanceolata,Cedrus deodara,Chamaecyparis obtusa,A
+15,水杉的拉丁学名是,Cryptomeria fortunei,Platycladus orientalis,Chamaecyparis obtusa,Metasequoia glyptostroboides,D
+16,侧柏的拉丁学名是,Cephalotaxus sinensis,Taxus cuspidata,Platycladus orientalis,Sabina chinensis,C
+17,日本扁柏的拉丁学名是,Cryptomeria fortunei,Cunninghamia lanceolata,Cedrus deodara,Chamaecyparis obtusa,D
+18,圆柏（桧柏）的拉丁学名是,Chamaecyparis obtusa,Taxus cuspidata,Sabina chinensis,Cunninghamia lanceolata,C
+19,罗汉松的拉丁学名是,Magnolia denudata,Podocarpus macrophyllus,Taxus cuspidata,Cephalotaxus sinensis,B 
+20,紫杉（东北红豆杉）的拉丁学名是,Podocarpus macrophyllus,Taxus cuspidata,Cephalotaxus sinensis,Michelia alba,B 
+21,粗榧的拉丁学名是,Magnolia liliflora,Podocarpus macrophyllus,Taxus cuspidata,Cephalotaxus sinensis,D
+22,木兰的拉丁学名是,Michelia figo,Magnolia liliflora,Magnolia denudata,Magnolia grandiflora,B 
+23,玉兰的拉丁学名是,Michelia figo,Magnolia liliflora,Magnolia denudata,Magnolia grandiflora,C
+24,广玉兰的拉丁学名是,Michelia figo,Magnolia liliflora,Magnolia denudata,Magnolia grandiflora,D
+25,白兰花的拉丁学名是,Michelia figo,Magnolia grandiflora,Magnolia grandiflora,Michelia alba,D
+26,含笑的拉丁学名是,Liriodendron chinense,Michelia alba,Michelia figo,Chimonanthus praecox,C
+27,鹅掌楸的拉丁学名是,Liriodendron chinense,Mahonia bealei,Cinnamomum camphora,Berberis thunbergii,A
+28,蜡梅的拉丁学名是,Cephalotaxus sinensis,Chimonanthus praecox,Cinnamomum camphora,Platanus × acerifolia,B 
+29,樟树的拉丁学名是,Chimonanthus praecox,Liquidambar formosana,Cinnamomum camphora,Nandina domestica,C
+30,小檗的拉丁学名是,Berberis thunbergii,Liquidambar formosana,Mahonia bealei,Bambusa multiplex,A
+31,南天竹的拉丁学名是,Melia azedarach,Liquidambar formosana,Eucommia ulmoides,Nandina domestica,D
+32,阔叶十大功劳的拉丁学名是,Magnolia denudata,Nandina domestica,Mahonia bealei,Michelia alba,C
+33,悬铃木（英桐）的拉丁学名是,Platanus × acerifolia,Ulmus parvifolia,Celtis bungeana,Ulmus pumila,A
+34,枫香的拉丁学名是,Larix principis-rupprechtii,Ligustrum lucidum,Liquidambar formosana,Lagerstroemia indica,C
+35,杜仲的拉丁学名是,Euonymus bungeanus(E. maackii),Euonymus alatus,Eucommia ulmoides,Euonymus japonicus,C
+36,榆树的拉丁学名是,Ulmus parvifolia,Ulmus pumila,Eucommia ulmoides,Zelkova schneideriana,B 
+37,榔榆的拉丁学名是,Ulmus parvifolia,Ulmus pumila,Zelkova schneideriana,Ficus microcarpa,A
+38,小叶朴的拉丁学名是,Ficus microcarpa,Celtis bungeana,Ulmus parvifolia,Berberis thunbergii,B 
+39,榉树（大叶榉）的拉丁学名是,Morus alba,Broussonetia papyrifera,Ziziphus jujuba,Zelkova schneideriana,D
+40,桑树的拉丁学名是,Morus alba,Mahonia bealei,Melia azedarach,Michelia alba,A
+41,榕树（小叶榕）的拉丁学名是,Morus alba,Juglans regia,Quercus aliena,Ficus microcarpa,D
+42,构树的拉丁学名是,Broussonetia papyrifera,Betula platyphylla,Bambusa multiplex,Berberis thunbergii,A
+43,胡桃（核桃）的拉丁学名是,Juglans regia,Broussonetia papyrifera,Quercus variabilis,Quercus aliena,A
+44,栓皮栎的拉丁学名是,Quercus dentata,Quercus aliena,Quercus variabilis,Juglans regia,C
+45,槲树的拉丁学名是,Quercus dentata,Liquidambar formosana,Quercus variabilis,Quercus aliena,A
+46,槲栎的拉丁学名是,Quercus dentata,Liquidambar formosana,Quercus variabilis,Quercus aliena,D
+47,白桦的拉丁学名是,Firmiana simplex,Betula platyphylla,Celtis bungeana,Actinidia chinensis,B 
+48,牡丹的拉丁学名是,Philadelphus pekinensis,Phyllostachys edulis ,Paeonia suffruticosa,Paulownia tomentosa,C
+49,山茶的拉丁学名是,Paeonia suffruticosa,Camellia japonica,Fraxinus chinensis,Tilia mongolica,B 
+50,猕猴桃的拉丁学名是,Ailanthus altissima,Tamarix chinensis,Hibiscus syriacus,Actinidia chinensis,D
+51,蒙椴的拉丁学名是,Trachycarpus fortunei,Tamarix chinensis,Taxus cuspidata,Tilia mongolica,D
+52,梧桐的拉丁学名是,Fraxinus chinensis,Populus canadensis,Hibiscus syriacus,Tilia mongolica,A
+53,木槿的拉丁学名是,Tamarix chinensis,Chaenomeles speciosa,Hibiscus syriacus,Hydrangea macrophylla,C
+54,柽柳的拉丁学名是,Populus tomentosa,Rhododendron simsii,Tamarix chinensis,Populus canadensis,C
+55,毛白杨的拉丁学名是,Populus tomentosa,Rhododendron simsii,Tamarix chinensis,Populus canadensis,A
+56,加拿大杨（加杨）的拉丁学名是,Populus tomentosa,Rhododendron simsii,Tamarix chinensis,Populus canadensis,D
+57,旱柳的拉丁学名是,Salix babylonica,Sapium sebiferum,Sabina chinensis,Salix matsudana,D
+58,垂柳的拉丁学名是,Salix babylonica,Sapium sebiferum,Sabina chinensis,Salix matsudana,A
+59,杜鹃花（映山红）的拉丁学名是,Rhus typhina,Rhododendron simsii,Rhamnus utilis,Robinia pseudoacacia,B 
+60,柿树的拉丁学名是,Philadelphus pekinensis,Pittosporum tobira,Deutzia scabra,Diospyros kaki,D
+61,海桐的拉丁学名是,Paulownia tomentosa,Deutzia grandiflora,Pittosporum tobira,Spiraea trilobata,C
+62,太平花的拉丁学名是,Pittosporum tobira,Phyllostachys propinqua,Philadelphus pekinensis,Picea wilsonii,C
+63,溲疏的拉丁学名是,Callicarpa dichotoma,Deutzia scabra,Deutzia grandiflora,Rosa rugosa,B 
+64,大花溲疏的拉丁学名是,Deutzia grandiflora,Sorbaria kirilowii,Deutzia scabra,Diospyros kaki,A
+65,八仙花（绣球花）的拉丁学名是,Ailanthus altissima,Chaenomeles speciosa,Hydrangea macrophylla,Deutzia grandiflora,C
+66,三桠绣线菊的拉丁学名是,Syringa oblata,Spiraea trilobata,Sapium sebiferum,Sambucus williamsii,B 
+67,珍珠梅的拉丁学名是,Sambucus williamsii,Sorbaria kirilowii,Sorbus pohuashanensis,Spiraea trilobata,B 
+68,玫瑰的拉丁学名是,Rosa rugosa,Rosa banksiae,Kerria japonica,Rosa xanthina,A
+69,黄刺玫的拉丁学名是,Rosa xanthina,Rosa rugosa,Kerria japonica,Rosa banksiae,A
+70,木香的拉丁学名是,Rosa rugosa,Prunus salicina,Rosa xanthina,Rosa banksiae,D
+71,棣棠的拉丁学名是,Lonicera maackii,Kolkwitzia amabilis,Koelreuteria paniculata,Kerria japonica,D
+72,李的拉丁学名是,Prunus persica,Prunus salicina,Prunus sibirica,Prunus davidiana,B 
+73,‘紫叶’李的拉丁学名是,Prunus davidiana,Prunus cerasifera ‘Pissardii’（或‘Atropurpurea’）,Prunus triloba,Prunus sibirica,B 
+74,山杏（西伯利亚杏）的拉丁学名是,Prunus sibirica,Prunus mume,Prunus tomentosa,Prunus davidiana,A
+75,梅的拉丁学名是,Prunus persica,Prunus mume,Prunus sibirica,Prunus davidiana,B 
+76,桃的拉丁学名是,Prunus sibirica,Prunus davidiana,Prunus tomentosa,Prunus persica,D
+77,山桃的拉丁学名是,Prunus sibirica,Prunus davidiana,Prunus tomentosa,Prunus persica,B 
+78,榆叶梅的拉丁学名是,Prunus sibirica,Prunus davidiana,Prunus triloba,Prunus tomentosa,C
+79,毛樱桃的拉丁学名是,Prunus serrulata,Prunus davidiana,Prunus triloba,Prunus tomentosa,D
+80,樱花的拉丁学名是,Prunus serrulata,Prunus davidiana,Prunus triloba,Prunus tomentosa,A
+81,平枝栒子的拉丁学名是,Chimonanthus praecox,Cornus alba,Cotoneaster horizontalis,Cotinus coggygria,C
+82,火棘的拉丁学名是,Chaenomeles sinensis,Sorbus pohuashanensis,Pyracantha fortuneana,Chaenomeles speciosa,C
+83,山楂的拉丁学名是,Chaenomeles speciosa,Chaenomeles speciosa,Crataegus pinnatifida,Callicarpa dichotoma,C
+84,百华花楸的拉丁学名是,Pyrus betulaefolia,Sorbus pohuashanensis,Chaenomeles speciosa,Crataegus pinnatifida,B 
+85,石楠的拉丁学名是,Albizia julibrissin,Photinia serrulata,Chaenomeles sinensis,Sorbus pohuashanensis,B 
+86,木瓜的拉丁学名是,Chaenomeles speciosa,Photinia serrulata,Albizia julibrissin,Chaenomeles sinensis,D
+87,贴梗海棠的拉丁学名是,Chaenomeles speciosa,Albizia julibrissin,Pyrus betulaefolia,Chaenomeles sinensis,A
+88,海棠花的拉丁学名是,Albizia julibrissin,Sophora japonica,Malus spectabilis,Pyrus betulaefolia,C
+89,杜梨的拉丁学名是,Pyrus betulaefolia,Malus spectabilis,Albizia julibrissin,Robinia pseudoacacia,A
+90,合欢的拉丁学名是,Pyrus betulaefolia,Sophora japonica,Albizia julibrissin,Wisteria sinensis,C
+91,紫荆的拉丁学名是,Sophora japonica,Cercis chinensis,Gleditsia sinensis,Elaeagnus angustifolia,B 
+92,皂荚的拉丁学名是,Wisteria sinensis,Gleditsia sinensis,Sophora japonica,Lagerstroemia indica,B 
+93,槐（国槐）的拉丁学名是,Elaeagnus angustifolia,Wisteria sinensis,Sophora japonica,Robinia pseudoacacia,C
+94,刺槐的拉丁学名是,Lagerstroemia indica,Robinia pseudoacacia,Sophora japonica,Elaeagnus angustifolia,B 
+95,紫藤的拉丁学名是,Wisteria sinensis,Elaeagnus angustifolia,Lagerstroemia indica,Dendrobenthamia japonica var.chinensis,A
+96,沙枣（桂香柳）的拉丁学名是,Lagerstroemia indica,Elaeagnus angustifolia,Punica granatum,Cornus alba,B 
+97,紫薇的拉丁学名是,Cornus alba,Lagerstroemia indica,Euonymus alatus,Euonymus bungeanus(E. maackii),B 
+98,石榴的拉丁学名是,Lagerstroemia indica,Cornus alba,Dendrobenthamia japonica var.chinensis,Punica granatum,D
+99,红瑞木的拉丁学名是,Ilex chinensis,Euonymus japonicus,Lagerstroemia indica,Cornus alba,D
+100,四照花的拉丁学名是,Dendrobenthamia japonica var.chinensis,Euonymus alatus,Euonymus bungeanus(E. maackii),Cornus alba,A
+101,卫矛的拉丁学名是,Euonymus alatus,Euonymus bungeanus(E. maackii),Euonymus japonicus,Elaeagnus angustifolia,A
+102,丝棉木的拉丁学名是,Euonymus alatus,Euonymus bungeanus(E. maackii),Euonymus japonicus,Elaeagnus angustifolia,B 
+103,大叶黄杨的拉丁学名是,Euonymus alatus,Euonymus bungeanus(E. maackii),Euonymus japonicus,Elaeagnus angustifolia,C
+104,冬青的拉丁学名是,Ilex chinensis,Euonymus alatus,Rhamnus utilis,Euonymus japonicus,A
+105,黄杨的拉丁学名是,Ilex chinensis,Buxus sinica,Sapium sebiferum,Berberis thunbergii,B 
+106,乌桕的拉丁学名是,Rhamnus utilis,Parthenocissus tricuspidata,Sapium sebiferum,Vitis vinifera,C
+107,枣的拉丁学名是,Vitis vinifera,Koelreuteria paniculata,Sapium sebiferum,Ziziphus jujuba,D
+108,冻绿的拉丁学名是,Vitis vinifera,Rhamnus utilis,Cotinus coggygria,Aesculus chinensis,B 
+109,葡萄的拉丁学名是,Rhus typhina,Rhamnus utilis,Vitis vinifera,Koelreuteria paniculata,C
+110,爬山虎的拉丁学名是,Pistacia chinensis,Parthenocissus tricuspidata,Koelreuteria paniculata,Cotinus coggygria,B 
+111,栾树的拉丁学名是,Koelreuteria paniculata,Aesculus chinensis,Pistacia chinensis,Cotinus coggygria,A
+112,七叶树的拉丁学名是,Acer palmatum,Aesculus chinensis,Acer palmatum,Koelreuteria paniculata,B 
+113,黄栌的拉丁学名是,Ailanthus altissima,Cotinus coggygria,Aesculus chinensis,Rhus typhina,B 
+114,火炬树的拉丁学名是,Acer palmatum,Ailanthus altissima,Toona sinensis,Rhus typhina,D
+115,黄连木的拉丁学名是,Toona sinensis,Rhus typhina,Pistacia chinensis,Acer truncatum,C
+116,元宝枫的拉丁学名是,Melia azedarach,Acer palmatum,Ailanthus altissima,Acer truncatum,D
+117,鸡爪槭的拉丁学名是,Acer truncatum,Acer palmatum,Ailanthus altissima,Toona sinensis,B 
+118,臭椿的拉丁学名是,Acer truncatum,Acer palmatum,Ailanthus altissima,Toona sinensis,C
+119,香椿的拉丁学名是,Toona sinensis,Callicarpa dichotoma,Nerium indicum,Citrus grandis,A
+120,楝树的拉丁学名是,Lycium chinense,Melia azedarach,Citrus grandis,Osmanthus fragrans,B 
+121,柚的拉丁学名是,Ligustrum lucidum,Melia azedarach,Callicarpa dichotoma,Citrus grandis,D
+122,夹竹桃的拉丁学名是,Callicarpa dichotoma,Osmanthus fragrans,Nerium indicum,Ligustrum×vicaryi,C
+123,枸杞的拉丁学名是,Ligustrum lucidum,Callicarpa dichotoma,Osmanthus fragrans,Lycium chinense,D
+124,小紫珠的拉丁学名是,Callicarpa dichotoma,Ligustrum lucidum,Osmanthus fragrans,Lycium chinense,A
+125,桂花的拉丁学名是,Jasminum sambac,Osmanthus fragrans,Callicarpa dichotoma,Lycium chinense,B 
+126,女贞的拉丁学名是,Jasminum sambac,Osmanthus fragrans,Ligustrum lucidum,Lycium chinense,C
+127,金叶女贞的拉丁学名是,Ligustrum lucidum,Ligustrum×vicaryi,Fraxinus chinensis,Syringa oblata,B 
+128,茉莉的拉丁学名是,Jasminum nudiflorum,Jasminum sambac,Paulownia tomentosa,Fraxinus chinensis,B 
+129,迎春的拉丁学名是,Paulownia tomentosa,Jasminum nudiflorum,Jasminum sambac,Forsythia suspensa,B 
+130,紫丁香的拉丁学名是,Fraxinus chinensis,Catalpa bungei,Jasminum nudiflorum,Syringa oblata,D
+131,连翘的拉丁学名是,Syringa oblata,Catalpa ovata,Forsythia suspensa,Catalpa bungei,C
+132,白蜡树的拉丁学名是,Fraxinus chinensis,Catalpa ovata,Paulownia tomentosa,Catalpa bungei,A
+133,毛泡桐的拉丁学名是,Fraxinus chinensis,Campsis grandiflora,Paulownia tomentosa,Catalpa bungei,C
+134,梓树的拉丁学名是,Campsis grandiflora,Catalpa ovata,Catalpa bungei,Gardenia jasminoides,B 
+135,楸树的拉丁学名是,Campsis grandiflora,Catalpa ovata,Catalpa bungei,Abelia chinensis,C
+136,凌霄的拉丁学名是,Catalpa bungei,Catalpa ovata,Gardenia jasminoides,Campsis grandiflora,D
+137,栀子花的拉丁学名是,Catalpa bungei,Catalpa ovata,Gardenia jasminoides,Campsis grandiflora,C
+138,糯米条的拉丁学名是,Abelia chinensis,Kolkwitzia amabilis,Weigela coraeensis,Viburnum macrocephalum,A
+139,蝟实的拉丁学名是,Kolkwitzia amabilis,Weigela florida,Viburnum macrocephalum,Viburnum sargentii,A
+140,锦带花的拉丁学名是,Viburnum macrocephalum,Lonicera japonica,Viburnum sargentii,Weigela florida,D
+141,海仙花的拉丁学名是,Weigela coraeensis,Viburnum sargentii,Viburnum macrocephalum,Sambucus williamsii,A
+142,木本绣球的拉丁学名是,Sambucus williamsii,Viburnum sargentii,Viburnum macrocephalum,Lonicera japonica,C
+143,天目琼花的拉丁学名是,Sambucus williamsii,Viburnum sargentii,Viburnum macrocephalum,Trachycarpus fortunei,B 
+144,接骨木的拉丁学名是,Lonicera maackii,Sambucus williamsii,Viburnum sargentii,Lonicera japonica,B 
+145,金银花的拉丁学名是,Lonicera maackii,Sambucus williamsii,Viburnum sargentii,Lonicera japonica,D
+146,金银木的拉丁学名是,Lonicera maackii,Sambucus williamsii,Viburnum sargentii,Lonicera japonica,A
+147,棕榈的拉丁学名是,Phyllostachys edulis ,Sambucus williamsii,Phyllostachys propinqua,Trachycarpus fortunei,D
+148,毛竹的拉丁学名是,Trachycarpus fortunei,Phyllostachys edulis ,Bambusa multiplex,Phyllostachys propinqua,B 
+149,早园竹的拉丁学名是,Trachycarpus fortunei,Phyllostachys edulis ,Bambusa multiplex,Phyllostachys propinqua,D
+150,孝顺竹的拉丁学名是,Trachycarpus fortunei,Phyllostachys edulis ,Bambusa multiplex,Phyllostachys propinqua,C

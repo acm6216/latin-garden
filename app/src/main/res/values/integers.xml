@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="setting_learning_review_interval_day_default">1</integer>
+    <integer name="setting_learning_review_interval_day_max">7</integer>
+    <integer name="setting_learning_review_interval_day_min">1</integer>
+
+    <integer name="plant_card_span_count">1</integer>
+    <integer name="course_card_span_count">2</integer>
+    <integer name="setting_learning_quiz_count_default">10</integer>
+    <integer name="setting_learning_quiz_count_max">50</integer>
+</resources>

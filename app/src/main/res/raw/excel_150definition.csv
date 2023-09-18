@@ -1,0 +1,151 @@
+id,chinese,latin,family,category,definition
+1,苏铁,Cycas revoluta,苏铁科,苏铁属,Cycas，源于kykas，原义是一种在埃及生长的棕榈。借用该词用做苏铁的属名是因为苏铁外形似棕榈。 ##revoluta，外卷的、反卷的（源自revolutivus，revolutus），与英文之revolution（革命）一词有相同词源。与revolutifolius（反卷叶的），revolubilis（外卷的、反卷的）相似。  
+2,银杏,Ginkgo biloba,银杏科,银杏属,Ginkgo，(日)来源于粤语‘金果’。##"biloba，二浅裂的（源自bilobatus,bilobus），bi-二，-loba分裂的。银杏叶片先端二浅裂。"
+3,辽东冷杉,Abies holophylla,松科,冷杉属,Abies，源于拉丁词abeo，意即升起来，指植株高大。##holo-完整的，-phylla叶片。
+4,白杄,Picea meyeri,松科,云杉属,picea，源于拉丁词picea，意即松脂。##meyeri，人名。该种亦称Meyer's Spruce（麦氏云杉）
+5,青杄,Picea wilsonii,松科,云杉属,wilsonii，人名。该种亦称Wilson's Spruce
+6,华北落叶松,Larix principis-rupprechtii,松科,落叶松属,Larix，源于拉丁词larix，意即落叶松##principis-rupprechtii（巴伐利亚王储鲁伯希特，1869-1955年）。该种亦称Prince Rupprecht's Larch
+7,金钱松,Pseudolarix amabilis,松科,金钱松属,Pseudolarix，Pseudo来源于希腊文pseudes（假的），Larix是落叶松属，意即金钱松属植物象落叶松属植物。##amabilis，可爱的，尤指秋叶金黄，状若金钱。
+8,雪松,Cedrus deodara,松科,雪松属,Cedrus源于希腊文kedros，意即雪松。##Deodara，神树，源于梵文devadaru。雪松在有些国家是被当作神树看待的，如印度、黎巴嫩等地。
+9,马尾松,Pinus massoniana,松科,松属,Pinus源于拉丁词pinus（松），英文pine（松）词源相同。##massoniana，人名。
+10,油松,Pinus tabuliformis,松科,松属,tabulaeformis，平台状的。油松枝条轮生，老年油松封顶后为平头。英文table也与tabulae有相似词源。
+11,白皮松,Pinus bungeana,松科,松属,bungeana，人名，在植物拉丁学名中出现的频率很高。
+12,华山松,Pinus armandii,松科,松属,armandii，人名，在植物拉丁学名中经常出现。
+13,杉木,Cunninghamia lanceolata,杉科,杉木属,Cunninghamia 源于人名James Cunningham，他首先发现杉木，故以其名作为属名以纪念。##lanceolata源于lanceolatus（披针形的），杉木的叶片为披针形。带有Lanci-词头的即有披针形的意思，如Lanceifolius（披针形叶的），Lanceus（披针形的），Lancifer（具披针形的），Lancilabris(披针形唇的)，Lancilimbus（披针形叶片的），Lancipetalus（披针形花瓣的）等。
+14,柳杉,Cryptomeria fortunei,杉科,柳杉属,Cryptomeria 源于希腊文kryptos（隐藏的）+meros（部分），该属植物球花部分隐蔽或球果的苞鳞部分不明显，或指叶基相重叠。##fortunei源于著名植物学家Robert Fortune（罗伯特·福琼）。
+15,水杉,Metasequoia glyptostroboides,杉科,水杉属,Metasequoia由希腊文meta（在后面，后生的）+Sequoia（北美红杉属）组成，意即与北美红杉有亲缘关系。 glyptostroboides指水松果状的，源于水松属（Glyptostrobus）。水松属名来源于希腊文glyptos（刻痕）+strobos（球果），指水松的球果具花纹。-oides相似的。
+16,侧柏,Platycladus orientalis,柏科,侧柏属,Platycladus 源于希腊文platys（宽的、扁的）+klados（枝条），指小枝扁平，这是侧柏属非常重要的形态特征之一。##orientalis意即东方的，太阳升起的地方。
+17,日本扁柏,Chamaecyparis obtusa,柏科,扁柏属,Chamaecyparis源于希腊文chamai（矮小的）+kyparissos（柏），意即矮的柏树。该属有很对低矮品种。##Obtusa，钝的，指小叶先端微钝。
+18,圆柏（桧柏）,Sabina chinensis,柏科,圆柏属（桧属）,Sabina 源于意大利一河名Sabine，指模式种发现地。##Chinensis，中国的。
+19,罗汉松,Podocarpus macrophyllus,罗汉松科（竹柏科）,罗汉松属,Podocarpus （希）pous ，podos（足）+karpos（果），意即种子具柄（罗汉松的种子很有特点，象一个个小罗汉立于翠绿的叶丛中）。##macrophyllus，指大叶的。macro大的，phyllus叶子。
+20,紫杉（东北红豆杉）,Taxus cuspidata,红豆杉科（紫杉科）,红豆杉属,Taxus， (希)taxis排列，指叶在枝上排列像疏齿。##cuspidata源于cuspidatus，具尖头的、具突尖的，指紫杉的叶片具突尖。
+21,粗榧,Cephalotaxus sinensis,三尖杉科（粗榧科）,三尖杉属,Cephalot-头的，taxus红豆杉衫属。该属种子核果状，全为肉质假种皮包被；而红豆杉属则部分包被。##sinensis，中国。
+22,木兰,Magnolia liliflora,木兰科,木兰属,Magnolia 源于法国植物学家Pierre Magnol(1683-1751)。liliflora，指花形似百合花（源于Liliflorus）。
+23,玉兰,Magnolia denudata,木兰科,木兰属,denudata意即剥脱了的，使裸露的（源于denudatus），指先花后叶，开花无绿叶衬托，似花裸露；亦可理解为其果实成熟裂开，鲜红的种子露出之意。
+24,广玉兰,Magnolia grandiflora,木兰科,木兰属,Grandiflora，大花的（源于grandiflorus）。
+25,白兰花,Michelia alba,木兰科,含笑属,Michelia 源于意大利植物学家Pietro Antonio Micheli（1679-1737）。##alba，白色的（源于albus）。
+26,含笑,Michelia figo,木兰科,含笑属,Michelia 人名。##figo含义不详。有可能来自figo（无花果）一词。
+27,鹅掌楸,Liriodendron chinense,木兰科,鹅掌楸属,Liriodendron源于希腊文leirion（百合）+dendron（树木），意即花的外观象百合花的树木。##Chinense，中国的。
+28,蜡梅,Chimonanthus praecox,蜡梅科,蜡梅属,Chimonanthus (希)cheimon-冬天的，anthos花，指冬日开花习性。##praecox早生的，早熟的。
+29,樟树,Cinnamomum camphora,樟科,樟属,Cinnamomum源于希腊文kinnamomum（肉桂树）。(希)kino卷，amomos香气，Cinnamomum指剥取的树皮干燥时卷曲，具浓烈的香气。##camphora源于阿拉伯语Kamfour（樟脑）。##香樟是樟脑的原料树。
+30,小檗,Berberis thunbergii,小檗科,小檗属,Berberis小檗的俗名。##thunbergii瑞典的姓氏。##atropurpurea黑紫色（atro-黑色的，purpurea紫色的）
+31,南天竹,Nandina domestica,小檗科,十大功劳属,Nandina（日）南天竹的俗名。##domestica栽培的，培育的。命名人可能是在庭院中见到的。
+32,阔叶十大功劳,Mahonia bealei,小檗科,十大功劳属,Mahonia人名。##Bealei 人名。
+33,悬铃木（英桐）,Platanus acerifolia,悬铃木科,悬铃木属,Platanus (希)三球悬铃木的古名。##acerifolia叶形象槭树叶（acer槭树属，folia叶）
+34,枫香,Liquidambar formosana,金缕梅科,枫香属,Liquidambar，(拉)liquidus液体的+（阿拉伯）ambar琥珀， 指本属植物分泌琥珀色香液。##formosana 台湾省的
+35,杜仲,Eucommia ulmoides,杜仲科,杜仲属,ulmoides像榆树的，指叶形像榆树。
+36,榆树,Ulmus pumila,榆科,榆属,Ulmus榆树的古名。##pumila矮小的。可能命名人最早看到的榆树是绿篱状栽培的。
+37,榔榆,Ulmus parvifolia,榆科,榆属,parvifolia小叶的（parvi-小的）
+38,小叶朴,Celtis bungeana,榆科,朴属,bungeana，人名，邦基（bunge）。
+39,榉树（大叶榉）,Zelkova schneideriana,榆科,榉属,Zelkova，人名。##Schneideriana，人名，施耐德（Schneider）。
+40,桑树,Morus alba,桑科,桑属,Alba，白色的，指果实白色。
+41,榕树,Ficus microcarpa,桑科,榕属,Ficus无花果的古名。##microcarpa小果的（micro-小的，-carpa果实），指榕树果实小，直径仅8mm。#（小叶榕）
+42,构树,Broussonetia papyrifera,桑科,构属,"papyrifera可制纸的，指植株纤维发达,可作制纸原料。"
+43,胡桃（核桃）,Juglans regia,胡桃科,胡桃属,Juglan，神爱吃的果实，寓意高贵（古罗马主神Jupiter 和果实glans合成）。##"regia国王的，指此种核果较高贵,为国王喜食之佳品。"
+44,栓皮栎,Quercus variabilis,山毛榉科（壳斗科）,栎属（麻栎属）,variabilis易变的
+45,槲树,Quercus dentata,山毛榉科（壳斗科）,栎属（麻栎属）,dentata，锯齿的
+46,槲栎,Quercus aliena,山毛榉科（壳斗科）,栎属（麻栎属）,"aliena （alienus）,外国的，外来的（alien）。"
+47,白桦,Betula platyphylla,桦木科,桦木属,platyphylla阔叶的（platy-宽阔的）
+48,牡丹,Paeonia suffruticosa,牡丹科,牡丹属,Paeonia牡丹植物的古名。##suffruticosa亚灌木的。
+49,山茶,Camellia japonica,山茶科,山茶属,Camellia人名 Camellus 
+50,猕猴桃,Actinidia chinensis,猕猴桃科,猕猴桃属,chinensis中国的。
+51,蒙椴,Tilia mongolica,椴树科,椴树属,mongolica蒙古的。
+52,梧桐,Firmiana simplex,梧桐科,梧桐属,Firmiana（人）德国植物学家Karl Joseph von Firmian。##simplex，不分枝的，指分枝少。
+53,木槿,Hibiscus syriacus,锦葵科,木槿属,Hibiscus (希)hibiskos一种沼泽锦葵的古名，传说鸟要取食这类植物##syriacus叙利亚的。
+54,柽柳,Tamarix chinensis,柽柳科,柽柳属,Tamarix来自圣经tamar，即Palm，多指枣椰树（date palm tree）##Chinensis中国的。
+55,毛白杨,Populus tomentosa,杨柳科,杨属,Populus民众的，大众的，指该属分布广泛。##Tomentosa被绒毛的，指叶片被毛。
+56,加拿大杨（加杨）,Populus canadensis,杨柳科,杨属,canadensis加拿大的
+57,旱柳,Salix matsudana,杨柳科,柳属,Salix水边的（sal-近，-lis水），指该属喜水湿地。##matsudana满洲里的。
+58,垂柳,Salix babylonica,杨柳科,柳属,babylonica巴比伦的（亚洲西南部一古国）
+59,杜鹃花（映山红）,Rhododendron simsii,杜鹃花科,杜鹃花属,Rhododendron (希)rhodon蔷薇花，红色，dendron树木，指某些种类的花红色，或指顶端花簇的外貌。##simsii人名，Sims姓氏。
+60,柿树,Diospyros kaki,柿树科,柿树属,Diospyros (希)Dios神的，神圣的，pyros小麦，谷物，Diospyros意指神的食物，指果味美可食。##Kaki（日）柿子。
+61,海桐,Pittosporum tobira,海桐科,海桐属,Pittosporum 指种子藏于有胶粘质的果肉内（Pitto-树脂，sporum种子）。##tobira（日）海桐花俗名。
+62,太平花,Philadelphus pekinensis,绣球花科,山梅花属,pekinensis北京的，指原产北京，亦名京山梅花。
+63,溲疏,Deutzia scabra,绣球花科,溲疏属,Deutzia人名，荷兰植物赞助家Johann van der Deutz.##scabra粗糙的，指叶片粗糙。
+64,大花溲疏,Deutzia grandiflora,绣球花科,溲疏属,grandiflora大花的。
+65,八仙花,Hydrangea macrophylla,绣球花科,绣球花属（八仙花属）,Hydrangea (希)花序似水杯状（hydro-水，angeion盛器、容器）。##macrophylla大叶的（macro-大的，phylla叶的）。#（绣球花）
+66,三桠绣线菊,Spiraea trilobata,蔷薇科,绣线菊属,"Spiraea源于希腊文speira,意即被缠绕物。指绣线菊属植物枝条纤细，容易缠绕在一起之意。"##trilobata，三裂的。 
+67,珍珠梅,Sorbaria kirilowii,蔷薇科,珍珠梅属,Sorbaria源于Sorbus（花楸属）+-aris（属于......的）。指叶形似花楸属植物。##kirilowii为人名。
+68,玫瑰,Rosa rugosa,蔷薇科,蔷薇属,Rosa 意即拉丁词rosa(玫瑰、蔷薇)。##rugosa源于rugosus，意即多皱纹的。玫瑰叶片表面凹陷而有皱。
+69,黄刺玫,Rosa xanthina,蔷薇科,蔷薇属,xanthina，黄色的，指花黄色。
+70,木香,Rosa banksiae,蔷薇科,蔷薇属,banksiae源于植物学家人名Banks。
+71,棣棠,Kerria japonica,蔷薇科,棣棠属,Kerria源于18世纪英国采集家William Kerr。##japonica，日本的（源于japonicus）。
+72,李,Prunus salicina,蔷薇科,李属,Prunus源于拉丁词prunum（李、梅）。##salicina源于salicinus（象柳的），指叶形狭长。
+73,‘紫叶’李,Prunus cerasifera‘Pissardii’,蔷薇科,李属,cerasifera产樱桃的（cerasus樱桃树），指果实似樱桃，
+74,山杏（西伯利亚杏）,Prunus sibirica,蔷薇科,李属,sibirica西伯利亚的。
+75,梅,Prunus mume,蔷薇科,李属,mume源于日本土名，意即梅。
+76,桃,Prunus persica,蔷薇科,李属,persica即桃（源自persicus），意即波斯的（Persia），今伊朗。
+77,山桃,Prunus davidiana,蔷薇科,李属,davidiana为人名。
+78,榆叶梅,Prunus triloba,蔷薇科,李属,triloba，三浅裂的（源于Trilobatus，Trilobus）。其叶子先端常有三浅裂。tri-词头在拉丁学名中很常见，表示三。
+79,毛樱桃,Prunus tomentosa,蔷薇科,李属,tomentosa，被绒毛的（源于tomentosus，），毛樱桃叶片上密被绒毛。
+80,樱花,Prunus serrulata,蔷薇科,李属,Serrulata，具细锯齿的，指叶片具有芒刺状锯齿。
+81,平枝栒子,Cotoneaster horizontalis,蔷薇科,栒子属,horizontalis水平的，指枝条水平开展。
+82,火棘,Pyracantha fortuneana,蔷薇科,火棘属,Pyracantha指浆果红色和枝条（pyros火，akantha刺）##fortuneana人名，福琼。
+83,山楂,Crataegus pinnatifida,蔷薇科,山楂属,pinnatifida羽状半裂的
+84,百华花楸,Sorbus pohuashanensis,蔷薇科,花楸属,pohuashanensis百花山的。
+85,石楠,Photinia serrulata,蔷薇科,石楠属,serrulata具锯齿的。
+86,木瓜,Chaenomeles sinensis,蔷薇科,木瓜属,sinensis中国的。
+87,贴梗海棠,Chaenomeles speciosa,蔷薇科,木瓜属,Chaenomeles (希)chaino裂开，melon苹果。##speciosa美丽的。
+88,海棠花,Malus spectabilis,蔷薇科,苹果属,spectabilis美丽的。
+89,杜梨,Pyrus betulaefolia,蔷薇科,梨属,betulaefolia，Betula桦木属，指叶子像桦树（Birch-Leaved Pear Tree ）。 
+90,合欢,Albizia julibrissin,含羞草科,合欢属,julibrissin丝树。
+91,紫荆,Cercis chinensis,云实科（苏木科）,紫荆属,Cercis (希)kerkis梭子，指荚果似织布用的梭子。##chinensis中国的。
+92,皂荚,Gleditsia sinensis,云实科（苏木科）,皂荚属,sinensis中国的。
+93,槐（国槐）,Sophora japonica,蝶形花科,槐属,Sophora (阿)sophera一种具蝶形花的植物俗名。##japonica日本的。
+94,刺槐,Robinia pseudoacacia,蝶形花科,刺槐属,pseudoacacia，Acacia金合欢属，Pseudo-假的，指像金合欢。 ##
+95,紫藤,Wisteria sinensis,蝶形花科,紫藤属,Wisteria人名，Wistar美国植物学家。##sinensis中国的.
+96,沙枣（桂香柳）,Elaeagnus angustifolia,胡颓子科,胡颓子属,angustifolia窄叶的，狭叶的。
+97,紫薇,Lagerstroemia indica,千屈菜科,紫薇属,Lagerstroemia人名Lagerstroem。##indica印度的。
+98,石榴,Punica granatum,石榴科,石榴属,Punica石榴的古名，来自(拉)puniceus，绯红色的，深红色的，指花的颜色。##granatum多籽的。
+99,红瑞木,Cornus alba,山茱萸科,梾木属,alba白色的。指该花和果均为白色。
+100,四照花,Dendrobenthamia japonica var.chinensis,山茱萸科,四照花属,japonica日本的。##chinensis中国的。
+101,卫矛,Euonymus alatus,卫矛科,卫矛属,alatus具翅的。
+102,丝棉木,Euonymus bungeanus(E. maackii),卫矛科,卫矛属,bungeanus ，人名。 ##
+103,大叶黄杨,Euonymus japonicus,卫矛科,卫矛属,Euonymus希腊一神名，(希)eu良好的，onyma(onoma)名称、名声。##Japonicus，日本的。
+104,冬青,Ilex chinensis,冬青科,冬青属,chinensis中国的。
+105,黄杨,Buxus sinica,黄杨科,黄杨属,Buxus (拉)锦熟黄杨的古名，来自(希)pyknos茂盛的，指该属植物分枝多而密集。##sinica中国的。
+106,乌桕,Sapium sebiferum,大戟科,乌桕属,Sebiferum，油的。是中国四大木本油料之一，种子含油量较高。
+107,枣,Ziziphus jujuba,鼠李科,枣属,"(Jujube,枣） "
+108,冻绿,Rhamnus utilis,鼠李科,鼠李属,utilis，有用的。 ##
+109,葡萄,Vitis vinifera,葡萄科,葡萄属,vinifera ，源自拉丁语vinifer，产酒的（wine-producing）
+110,爬山虎,Parthenocissus tricuspidata,葡萄科,爬山虎属,Parthenocissus (希)北美洲五叶爬山虎的通称（parthenos处女，kissos常春藤）。##Tricuspidata三尖头的，指叶先端三裂（tri-三，cuspidata具尖头的）
+111,栾树,Koelreuteria paniculata,无患子科,栾树属,Koelreuteria德国植物学家Koelreuter。##paniculata圆锥状的，指圆锥花序。
+112,七叶树,Aesculus chinensis,七叶树科,七叶树属,chinensis中国的。
+113,黄栌,Cotinus coggygria,漆树科,黄栌属,
+114,火炬树,Rhus typhina,漆树科,盐肤木属,
+115,黄连木,Pistacia chinensis,漆树科,黄连木属,
+116,元宝枫,Acer truncatum,槭树科,槭树属,Acer槭树的古名，来自于凯尔特语，ac（尖端，尖状物），指其木材坚硬，古代用以制作长矛和矛状器具的尖头。##truncatum截形的。
+117,鸡爪槭,Acer palmatum,槭树科,槭树属,palmatum掌状的
+118,臭椿,Ailanthus altissima,苦木科,臭椿属,altissima极高的。
+119,香椿,Toona sinensis,楝科,香椿属,sinensis中国的。
+120,楝树,Melia azedarach,楝科,楝属,"French azédarach, from Persian ???? ???? (azad deraxt), from ???? + ????, literally, ""noble tree""."
+121,柚,Citrus grandis,芸香科,柑橘属,grandis大的，指果实巨大。
+122,夹竹桃,Nerium indicum,夹竹桃科,夹竹桃属,Nerium (希)nerion夹竹桃属植物的古名，源自(希)neros潮湿，指本属植物生长环境多喜湿润。##indicum印度的。
+123,枸杞,Lycium chinense,茄科,枸杞属,chinensis中国的。
+124,小紫珠,Callicarpa dichotoma,马鞭草科,紫珠属,"In Greek, the genus name Callicarpa means callos, “beauty” and. carpos “fruit”."##dichotoma拟二歧分枝的
+125,桂花,Osmanthus fragrans,木犀科,木犀属,"Osmanthus(希)指花芳香（osme香味,anthos花）。"##fragrans芳香的。
+126,女贞,Ligustrum lucidum,木犀科,女贞属,ligustrum水蜡树的古名，源自(拉)ligo绑缚、捆绑，指枝条柔韧，可供编织材料。##lucidum光亮的，指叶片有光泽。
+127,金叶女贞,Ligustrum×vicaryi,木犀科,女贞属,
+128,茉莉,Jasminum sambac,木犀科,茉莉属,
+129,迎春,Jasminum nudiflorum,木犀科,茉莉属,nudiflorum裸花的，指花先叶开放。
+130,紫丁香,Syringa oblata,木犀科,丁香属,"Syringa (希) 管子（syrinx,syringos），指具花冠筒。"##oblata扁圆形的，指叶形。
+131,连翘,Forsythia suspensa,木犀科,连翘属,suspensa下垂的，指茎秆蔓长。
+132,白蜡树,Fraxinus chinensis,木犀科,白蜡树属,chinensis中国的。
+133,毛泡桐,Paulownia tomentosa,玄参科,泡桐属,tomentosa有毛的。
+134,梓树,Catalpa ovata,紫葳科,梓树属,ovata卵形的，指叶形
+135,楸树,Catalpa bungei,紫葳科,梓树属,Bungei人名
+136,凌霄,Campsis grandiflora,紫葳科,凌霄属,Campsis（希）kampsis弯曲， 指茎弯曲。##grandifloras大花的。
+137,栀子花,Gardenia jasminoides,茜草科,栀子属,Gardenia人名Garden。##jasminoides像茉莉花的（jasmin-茉莉花，-oides像）。
+138,糯米条,Abelia chinensis,忍冬科,六道木属,chinensis中国的。
+139,蝟实,Kolkwitzia amabilis,忍冬科,蝟实属,amabilis可爱的。##Latin Meaning: The name Amabilis is a Latin baby name. In Latin the meaning of the name Amabilis is: Beautiful or loving
+140,锦带花,Weigela florida,忍冬科,锦带花属,florida多花的。
+141,海仙花,Weigela coraeensis,忍冬科,锦带花属,
+142,木本绣球,Viburnum macrocephalum,忍冬科,荚蒾属,Viburnum一种荚蒾的古名，(拉)vieo编、扎、绑，指枝条柔韧，可供编织绑扎之用。##Macro--大的；cephalum--头部
+143,天目琼花,Viburnum sargentii,忍冬科,荚蒾属,sargentii人名。
+144,接骨木,Sambucus williamsii,忍冬科,接骨木属,williamsii人名。
+145,金银花,Lonicera japonica,忍冬科,忍冬属,Lonicera（人）Adam Lonicer。##japonica人名。
+146,金银木,Lonicera maackii,忍冬科,忍冬属,Lonicera（人）Adam Lonicer。##maackii人名。
+147,棕榈,Trachycarpus fortunei,棕榈科,棕榈属,Trachycarpus指种子表面粗糙，(希)trachy粗的，粗糙的，karpos果。 ## fortunei人名。
+148,毛竹,Phyllostachys edulis ,禾本科,刚竹属,edulis 可食用的，指竹笋。
+149,早园竹,Phyllostachys propinqua,禾本科,刚竹属,"Propinqua-附近的邻居的near, neighboring"
+150,孝顺竹,Bambusa multiplex,禾本科,孝顺竹属,Bambusa，竹燃烧时爆破声。##"multiplex多倍的,重复的，指茎秆丛生。"

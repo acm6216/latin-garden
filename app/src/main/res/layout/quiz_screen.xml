@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="quiz"
+            type="me.qingshu.latin.model.QuizViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:paddingBottomSystemWindowInsets="@{true}">
+
+        <com.google.android.material.appbar.AppBarLayout
+            app:paddingTopSystemWindowInsets="@{true}"
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                app:titleTextAppearance="@style/ToolbarTitle"
+                app:subtitleTextAppearance="@style/ToolbarSubtitle"
+                app:title="@{quiz.quizCard.title}"
+                android:id="@+id/toolbar"
+                app:navigationIcon="@drawable/ic_back"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="@integer/plant_card_span_count"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingHorizontal="12dp"
+            android:paddingBottom="?actionBarSize"
+            app:layout_constraintTop_toBottomOf="@id/appbar"
+            app:layout_constraintBottom_toTopOf="@id/bottom_toolbar"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="center"
+            app:isGone="@{quiz.isEmpty()}"
+            android:visibility="gone"
+            android:text="@string/quiz_answer_empty"
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="6dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginStart="16dp"
+                    android:text="@{quiz.singleQuizStatus}"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/commit"
+                    app:isGone="@{!quiz.isTesting()}"
+                    android:layout_marginEnd="8dp"
+                    app:icon="@drawable/ic_check"
+                    android:text="@string/quiz_answer_commit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/renew"
+                    app:isGone="@{quiz.isTesting()}"
+                    app:icon="@drawable/ic_refresh"
+                    android:text="@string/quiz_answer_renew"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
