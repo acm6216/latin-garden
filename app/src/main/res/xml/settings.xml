@@ -4,14 +4,13 @@
     <PreferenceCategory
         app:title="@string/setting_voice">
 
-        <rikka.preference.SimpleMenuPreference
-            app:useSimpleSummaryProvider="true"
-            app:defaultValue="@string/setting_playback_speed_default"
+        <me.qingshu.latin.preference.SliderPreference
+            app:allowDividerBelow="false"
+            app:allowDividerAbove="false"
+            app:key="@string/setting_playback_speed_key"
             app:title="@string/setting_playback_speed"
             app:icon="@drawable/ic_speed"
-            app:entryValues="@array/setting_playback_speed_values"
-            app:entries="@array/setting_playback_speed_entries"
-            app:key="@string/setting_playback_speed_key"/>
+            app:layout="@layout/preference_playback_speed" />
 
         <SwitchPreferenceCompat
             app:icon="@drawable/ic_play"
@@ -32,6 +31,7 @@
 
     <PreferenceCategory
         app:title="@string/setting_learning">
+
         <SeekBarPreference
             app:icon="@drawable/ic_commit"
             app:min="@integer/setting_learning_review_interval_day_min"

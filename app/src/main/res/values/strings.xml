@@ -118,8 +118,8 @@
     <string name="quiz_answer_commit_completion">提交答案</string>
 
     <string name="privacy_policy">隐私政策</string>
-    <string name="privacy_policy_close">我已知晓</string>
-    <string name="privacy_policy_finish">退出</string>
+    <string name="privacy_policy_close">同意</string>
+    <string name="privacy_policy_finish">不同意</string>
     <string name="privacy_policy_status_key" translatable="false">privacy_policy_status_key</string>
     <string name="privacy_policy_not_reminder">不再提醒</string>
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingBottom="8dp"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:id="@+id/icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingHorizontal="?android:attr/listPreferredItemPaddingStart"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:id="@+id/title"
+        android:gravity="bottom"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.slider.Slider
+        android:value="1f"
+        android:id="@+id/widget"
+        app:labelBehavior="withinBounds"
+        android:valueFrom="0.5"
+        android:valueTo="3.0"
+        android:stepSize="0.25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="top"
+        android:paddingHorizontal="?android:attr/listPreferredItemPaddingStart"
+        android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+        android:textColor="?android:attr/textColorSecondary"
+        style="@style/PreferenceSummaryTextStyle"
+        android:id="@+id/summary"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="PrivateResource" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

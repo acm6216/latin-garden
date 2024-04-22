@@ -31,6 +31,7 @@
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">true</item>
 
+        <item name="seekBarStyle">@style/Widget.Latin.SeekBar</item>
         <item name="switchStyle">@style/Widget.Latin.Material3.CompoundButton.Switch</item>
         <item name="simpleMenuPreferenceStyle">@style/Preference.Latin.Material3.SimpleMenuPreference</item>
     </style>

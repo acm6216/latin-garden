@@ -121,9 +121,9 @@ class QuizViewModel @Inject constructor(
     ////
 
     private val completion = MutableStateFlow(emptyList<Completion>())
-    val displayCompletion = combine(completion,isTesting){ c,test ->
+    val displayCompletion = combine(completion,isTesting,quizType){ c,test,type ->
         val com = c.filter { it.useAnswer.isNotEmpty() }.size
-        singleQuizStatus.emit("$com/${c.size}")
+        if(type==QuizType.COMPLETION) singleQuizStatus.emit("$com/${c.size}")
         c.map {
             Completion(
                 resId = it.resId,

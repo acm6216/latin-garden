@@ -14,8 +14,8 @@ android {
         applicationId "me.qingshu.latin"
         minSdk 21
         targetSdk 33
-        versionCode 21
-        versionName "1.8.5.230918_Release"
+        versionCode 23
+        versionName "1.8.6.240422_Release"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -50,7 +50,6 @@ android {
 dependencies {
 
     implementation 'dev.rikka.rikkax.preference:simplemenu-preference:1.0.3'
-    //implementation 'me.zhanghai.android.fastscroll:library:1.1.8'
 
     implementation "com.google.dagger:hilt-android:$hilt_version"
     implementation 'androidx.preference:preference:1.2.0'

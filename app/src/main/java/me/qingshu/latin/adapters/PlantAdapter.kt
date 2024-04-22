@@ -7,13 +7,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import me.qingshu.latin.R
 import me.qingshu.latin.data.ListItem
-import me.qingshu.latin.data.SortBy
 import me.qingshu.latin.databinding.PlantItemBinding
 import me.qingshu.latin.extensions.isGone
 
 class PlantAdapter(
     private val plantClick:(ListItem) -> Unit,
-    private val plantLongClick:(ListItem)->Unit,
+    private val completed:(ListItem)->Unit,
     private val soundClick:(ListItem)->Unit,
     private val favorite:(ListItem)->Unit
 ):ListAdapter<ListItem, PlantAdapter.PlantViewHolder>(
@@ -24,7 +23,7 @@ class PlantAdapter(
 
         override fun areContentsTheSame(oldItem: ListItem, newItem: ListItem): Boolean{
             return oldItem.data.chinese==newItem.data.chinese && oldItem.data.latin==newItem.data.latin
-                    && oldItem.data.isFavorite == newItem.data.isFavorite
+                    && oldItem.data.isFavorite == newItem.data.isFavorite && oldItem.data.completed == newItem.data.completed
         }
     }
 ) {
@@ -34,7 +33,7 @@ class PlantAdapter(
     }
 
     override fun onBindViewHolder(holder: PlantViewHolder, position: Int) {
-        holder.bind(getItem(position),plantClick,plantLongClick,soundClick,favorite,position)
+        holder.bind(getItem(position),plantClick,completed,soundClick,favorite,position)
     }
 
     class PlantViewHolder(
@@ -44,7 +43,7 @@ class PlantAdapter(
         fun bind(
             listItem: ListItem,
             click:(ListItem) -> Unit,
-            longClick:(ListItem)->Unit,
+            completed:(ListItem)->Unit,
             soundClick:(ListItem)->Unit,
             favoriteClick:(ListItem)->Unit,
             position: Int
@@ -65,8 +64,9 @@ class PlantAdapter(
             binding.sound.setOnClickListener {
                 soundClick.invoke(listItem)
             }
+            binding.card.isChecked = listItem.data.completed
             binding.inner.setOnLongClickListener {
-                longClick.invoke(listItem)
+                completed.invoke(listItem)
                 true
             }
             binding.definition.isGone(listItem.data.definition.trim().isEmpty())

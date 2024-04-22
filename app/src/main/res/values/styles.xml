@@ -18,6 +18,16 @@
         <item name="trackTint">@color/switch_track_tint_material3_color</item>
     </style>
 
+    <style name="Widget.Latin.SeekBar" parent="android:Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_track_material</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_track_material</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_material</item>
+        <item name="android:focusable">true</item>
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+    </style>
+
     <style name="Preference.Latin.Material3.SimpleMenuPreference" parent="Preference.SimpleMenuPreference">
         <item name="android:popupMenuStyle">@style/Widget.Latin.Material3.Preference.SimpleMenuPreference.PopupMenu</item>
     </style>

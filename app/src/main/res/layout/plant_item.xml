@@ -12,7 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:checkable="true"
+            app:strokeWidth="0dp"
+            app:cardElevation="2dp"
+            app:checkedIconMargin="8dp"
+            app:checkedIconSize="24dp"
+            app:checkedIcon="@drawable/ic_check"
+            app:checkedIconGravity="BOTTOM_END"
             app:cardCornerRadius="8dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -37,17 +45,60 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
-                <com.google.android.material.chip.Chip
-                    style="@style/Widget.MaterialComponents.Chip.Action"
-                    android:textColor="?colorPrimary"
-                    android:layout_marginStart="4dp"
-                    android:textAppearance="@style/Subtitle"
-                    android:text="@{plant.label(context)}"
-                    app:layout_constraintBottom_toBottomOf="@id/category"
-                    app:layout_constraintStart_toEndOf="@id/category"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:ignore="SmallSp" />
+                <me.qingshu.latin.views.EdgeTransparentView
+                    android:id="@+id/family_root"
+                    app:layout_constraintTop_toBottomOf="@id/latin_name"
+                    app:layout_constraintStart_toEndOf="@id/sound"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    app:edge_position="left|right"
+                    app:edge_width="8dp"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <Space
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content"/>
+
+                        <com.google.android.material.chip.Chip
+                            style="@style/Widget.MaterialComponents.Chip.Action"
+                            android:textColor="?colorPrimary"
+                            android:textAppearance="@style/Subtitle"
+                            android:text="@{plant.label(context)}"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="SmallSp" />
+
+                        <com.google.android.material.chip.Chip
+                            style="@style/Widget.MaterialComponents.Chip.Action"
+                            android:textAppearance="@style/Subtitle"
+                            android:layout_marginHorizontal="4dp"
+                            android:id="@+id/family"
+                            android:text="@{plant.family}"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.google.android.material.chip.Chip
+                            style="@style/Widget.MaterialComponents.Chip.Action"
+                            android:textAppearance="@style/Subtitle"
+                            android:id="@+id/category"
+                            android:text="@{plant.category}"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <Space
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content"/>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </me.qingshu.latin.views.EdgeTransparentView>
+
                 <ImageView
                     android:background="?selectableItemBackgroundBorderless"
                     android:padding="12dp"
@@ -57,7 +108,8 @@
                     android:layout_marginEnd="12dp"
                     android:id="@+id/sound"
                     android:layout_width="48dp"
-                    android:layout_height="48dp"/>
+                    android:layout_height="48dp"
+                    tools:ignore="ContentDescription" />
                 <TextView
                     android:fontFamily="serif"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -70,29 +122,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
-                <com.google.android.material.chip.Chip
-                    style="@style/Widget.MaterialComponents.Chip.Action"
-                    android:textAppearance="@style/Subtitle"
-                    android:layout_marginTop="4dp"
-                    android:id="@+id/family"
-                    android:text="@{plant.family}"
-                    app:layout_constraintStart_toStartOf="@id/name"
-                    app:layout_constraintTop_toBottomOf="@id/latin_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-                <com.google.android.material.chip.Chip
-                    style="@style/Widget.MaterialComponents.Chip.Action"
-                    android:textAppearance="@style/Subtitle"
-                    android:layout_marginTop="4dp"
-                    android:id="@+id/category"
-                    android:text="@{plant.category}"
-                    android:layout_marginStart="4dp"
-                    app:layout_constraintStart_toEndOf="@id/family"
-                    app:layout_constraintTop_toBottomOf="@id/latin_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
                 <TextView
                     app:layout_constraintEnd_toStartOf="@id/favorite"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption"
@@ -102,7 +131,7 @@
                     android:text="@{plant.definition}"
                     android:layout_marginStart="1dp"
                     app:layout_constraintStart_toStartOf="@id/name"
-                    app:layout_constraintTop_toBottomOf="@id/family"
+                    app:layout_constraintTop_toBottomOf="@id/family_root"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
@@ -117,7 +146,7 @@
                     android:layout_height="48dp"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

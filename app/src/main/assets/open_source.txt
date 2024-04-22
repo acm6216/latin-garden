@@ -4,7 +4,7 @@
 </head>
 
 <h5>版本项目开源地址：</h5>
-<p><a href="https://github.com/acm6216/**">https://github.com/acm6216/**</a></p>
+<p><a href="https://github.com/acm6216/latin-garden">https://github.com/acm6216/latin-garden</a></p>
 
 <h5>使用到的开源库</h5>
 <h5>1、卡片层叠</h5>

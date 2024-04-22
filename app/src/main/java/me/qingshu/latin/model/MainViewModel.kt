@@ -47,6 +47,7 @@ class MainViewModel @Inject constructor(
             sortBy.emit(by)
         }
     }
+
     private val plants = combine(allPlants,sortBy){ plant,sort ->
         val comparator = Collator.getInstance(Locale.CHINA)
         plant.toMutableList().sortedWith { p1, p2 ->
@@ -56,6 +57,20 @@ class MainViewModel @Inject constructor(
                 SortBy.FAMILY -> comparator.compare(p1.family, p2.family)
                 else -> comparator.compare(p1.category, p2.category)
             }
+        }.map {
+            Plant(
+                id = it.id,
+                chinese = it.chinese,
+                latin = it.latin,
+                family = it.family,
+                category = it.category,
+                definition = it.definition.replace("#","\n\n别名："),
+                resId = it.resId,
+                type = it.type,
+                completed = it.completed,
+                lastCompetedTime = it.lastCompetedTime,
+                isFavorite = it.isFavorite
+            )
         }
     }
 
@@ -230,6 +245,31 @@ class MainViewModel @Inject constructor(
             ).also {
                 useCase.updatePlant(it)
                 skip(ListItem(data = it))
+            }
+        }
+    }
+
+    fun toggleCompleted(item: ListItem){
+        val target = item.data
+        val isWrong = learnDataSource.value==CourseType.WRONG_QUESTION_BOOK
+        viewModelScope.launch(Dispatchers.IO) {
+            Plant(
+                id = target.id,
+                chinese = target.chinese,
+                latin = target.latin,
+                family = target.family,
+                category = target.category,
+                definition = target.definition,
+                resId = target.resId,
+                type = target.type,
+                completed = !target.completed,
+                isFavorite = target.isFavorite,
+                lastCompetedTime = System.currentTimeMillis()
+            ).also {
+                useCase.updatePlant(it)
+                if(isWrong) {
+                    skip(ListItem(data = it))
+                }
             }
         }
     }

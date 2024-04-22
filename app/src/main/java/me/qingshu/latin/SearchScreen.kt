@@ -13,8 +13,8 @@ class SearchScreen : BaseFragment<SearchScreenBinding>() {
         plantClick = {
 
         },
-        plantLongClick = {
-
+        completed = {
+            viewModel.toggleCompleted(it)
         },
         soundClick = {
             voiceViewModel.play(it)
